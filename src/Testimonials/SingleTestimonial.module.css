@@ -1,0 +1,81 @@
+.testimonial{
+ display: none;
+ width:100%;
+ margin:auto;
+}
+.activeTestimonial{
+    display: block;
+    width: 100%;
+}
+blockquote {
+    min-height: 5em;
+    /* width: 100%; */
+    padding: 1em 4em;
+    font: 1em/150% sans-serif;
+    position: relative;
+    background-color: rgb(248, 246, 246);
+  }
+  
+  blockquote::before,
+  blockquote::after {
+    position: absolute;
+    height: 3rem;
+    font:
+      6rem/100% Georgia,
+      "Times New Roman",
+      Times,
+      serif;
+  }
+  
+  blockquote::before {
+    content: "“";
+    top: 0.3rem;
+    left: 0.9rem;
+  }
+  
+  blockquote::after {
+    content: "”";
+    bottom: 0.3rem;
+    right: 0.8rem;
+  }
+  blockquote i {
+    display: block;
+    font-size: 0.8em;
+    margin-top: 1rem;
+    margin-right: 0.2rem;
+    text-align: end;
+    /* position: absolute;
+    right:10%;
+    bottom:10px; */
+  }
+  blockquote i:last-child{
+    margin-top: 0;
+  }
+  blockquote img{
+    width: 60px;
+    /* display: block; */
+    float: right;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    /* position: absolute;
+  right:20px;
+    bottom: 50x; */
+    border-radius: 50%;
+  }
+  @media screen and (max-width:800px) and (min-width:301px) {
+    blockquote{
+      /* width:97%; */
+      max-width: 500px;
+    }
+    
+  }
+  @media screen and (max-width:300px) {
+    blockquote{
+      width:100%;
+      /* min-width:300px; */
+      padding: 0;
+      height: 100%;
+    }
+    
+  }

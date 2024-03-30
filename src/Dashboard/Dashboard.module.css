@@ -1,0 +1,53 @@
+
+.maindivD{
+    position: relative;
+    height: 100%;
+    width: 100%;;
+    overflow-y: hidden;
+   
+}
+
+.navbarwithmenu{
+    width:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    right: 0;
+    display: none;
+    z-index: 2;
+}
+.parentdiv2{
+    width: 100%;
+    position: relative;
+    /* right:10px; */
+    top:0px;
+    margin:auto;
+    height: 100%;
+    /* background: url("https://img.freepik.com/free-vector/dark-wavy-colors-background_23-2148403785.jpg?w=900&t=st=1711044533~exp=1711045133~hmac=3a004647ef97534fff7367b580dac70480a8063908d642672415b3bf67e7924b");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.acspt{
+    width: 76%;
+    position: relative;
+    float:right;
+    right:0;
+    background-color: #f1f1f1;
+    background-size: cover;
+
+}
+@media  screen and (max-width:1200px) {
+    .acspt{
+        float:none;
+        width:99%;
+        margin:auto;
+    }
+    .navbarwithmenu{
+        display: block;
+        height: 50px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        background-color: whitesmoke;
+    }
+}

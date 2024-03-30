@@ -1,0 +1,58 @@
+.timeline {
+    width: 90%;
+  
+    background: #fff;
+    padding: 100px 50px;
+    position: relative;
+    box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+  }
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: calc(33% + 45px);
+    bottom: 0px;
+    width: 4px;
+    background: #ddd;
+  }
+  .timeline:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width:950px) {
+    .timeline{
+      width: 85%;
+      max-width: 800px;
+      /* padding:0; */
+     
+    }
+    
+  }
+  @media screen and (max-width:600px)and (min-width:401px)  {
+    .timeline:before{
+     left:10px;
+    }
+    .timeline{
+      width:95%;
+      max-width: 570px;
+      /* border:1px solid red;; */
+      padding-left: 20px;
+      /* padding:20px 0px; */
+      padding-right: 0px;
+    }
+   }
+   @media screen and (max-width:400px) {
+    .timeline:before{
+     left:10px;
+    }
+    .timeline{
+      /* border:1px solid rgb(155, 203, 35); */
+      width:91%;
+      max-width: 380px;
+      padding-left: 20px;
+      /* padding:20px 0px; */
+      padding-right: 0px;
+    }
+   
+   }

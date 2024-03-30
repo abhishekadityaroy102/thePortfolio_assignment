@@ -1,0 +1,33 @@
+.maindivAllStack{
+   
+    position: relative;
+}
+.skills_box{
+    height: 50px;
+    background-color:white;
+    position: relative;
+    left:0;
+    margin: 5px 5px 5px 0px;
+    padding: 0px 10px 0px 10px;
+   border: none;;
+
+}
+.skills_box img{
+ width:30px;
+ height: 30px;
+ /* padding-top: 10px; */
+ margin:auto;
+
+}
+.skills_box:hover{
+    background-color:#b2adad;
+    color:rgb(32, 27, 27);
+    cursor: pointer;
+}
+.skills_box span{
+    /* text-align: right; */
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom:7px;
+    
+}

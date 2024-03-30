@@ -1,0 +1,80 @@
+.maindivA{
+    height:100%;
+    width: 97%;
+    margin:auto;
+    margin-top: 10px;
+}
+/* .maindiv img{
+   width: 90%;
+   height: 400px;
+   margin: auto;
+} */
+.bgimg1,.bgimg2{
+    position: relative;
+    min-height: 90vh;
+    /* height: 600px; */
+    width: 100%;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption1{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.caption1 span{
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.text_name{
+    text-align: start;
+    font-size: large;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.text_title{
+    text-align: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.text_subtitle{
+    text-align: start;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.text_desc{
+    text-align: start;
+    font-family:sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    padding: 10px;
+    letter-spacing: 1.4px;
+    background-color: white;
+    font-style: normal;
+}
+@media (max-width: 600px) {
+    .caption1 span {
+      white-space: pre-wrap;
+      /* font-size: 30px; */
+      padding:5px;
+      /* margin: auto;
+      text-align: center; */
+      display: block;
+    }
+  }

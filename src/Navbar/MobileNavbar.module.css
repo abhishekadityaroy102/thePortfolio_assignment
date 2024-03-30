@@ -1,0 +1,23 @@
+.maindivM{
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 28px;
+    margin: auto;
+    /* margin-bottom: 70px; */
+}
+.avatarbox{
+    margin-right: 7px;
+
+}
+.avatarbox>img{
+    width: 40px;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 50%;
+}
+.menubox{
+    margin-left: 7px;
+    margin-top: 5px;
+
+}

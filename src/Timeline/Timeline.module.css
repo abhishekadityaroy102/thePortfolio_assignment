@@ -1,0 +1,19 @@
+.maindiv{
+    height:100%;
+    margin: auto;
+    width:97%;
+
+}
+.headlines{
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: 10px;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:500px) {
+.headlines{
+  font-size: 40px;
+}
+}

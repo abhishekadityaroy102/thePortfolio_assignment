@@ -1,0 +1,58 @@
+.maindivP{
+    height: 100%;
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin:auto;
+  
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+   
+}
+.maindivP>h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.maindivP>p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* .filter_tech_box{
+    text-align: start;
+} */
+.techskills_box{
+    margin-left: 0px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    text-align: start;
+    width: 100%;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.project_headline{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tools_headline{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:500px) {
+    .tools_headline{
+      font-size: 40px;
+    }
+    .project_headline{
+        font-size: 40px;
+      }
+    }

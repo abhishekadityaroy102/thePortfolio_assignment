@@ -1,0 +1,26 @@
+.maindivService{
+    height:100%;
+    width: 97%;
+    margin: auto;
+}
+.flex_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.headline{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:500px) {
+    .headline{
+      font-size: 40px;
+    }
+    }

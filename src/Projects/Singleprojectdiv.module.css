@@ -1,0 +1,42 @@
+.maindiv{
+    width: 32%;
+    height: 100%;;
+    background-color: white;;
+    margin-bottom: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.maindiv>img{
+    width:100%;
+    margin:auto;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;    
+    height: 200px;
+}
+.maindiv>img:hover{
+    opacity: 0.67;
+    cursor: pointer;
+}
+.maindiv>p{
+    text-align: start;
+    margin-left: 5px;
+}
+.project_title{
+    font-weight: bold;
+}
+.maindiv>span{
+ 
+    font-weight: bold;
+}
+@media screen and (max-width:850px) and (min-width:600px) {
+    .maindiv{
+        width:47%;
+    }
+    
+}
+@media screen and (max-width:599px) {
+    .maindiv{
+        width:99%;
+    }
+    
+}

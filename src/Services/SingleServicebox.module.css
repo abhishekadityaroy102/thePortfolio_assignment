@@ -1,0 +1,43 @@
+.maindivSingleService{
+    width:32%;
+    height: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    border:1px solid white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.maindivSingleService>img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.maindivSingleService>button{
+    width: 100%;
+    border:none;
+    background-color: rgb(17, 16, 16);
+    color:white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    /* margin-bottom: 10px; */
+}
+.maindivSingleService>p{
+    text-align: start;
+    padding: 5px;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+@media screen and (max-width:850px) and (min-width:600px) {
+    .maindivSingleService{
+        width:47%;
+    }
+    
+}
+@media screen and (max-width:599px) {
+    .maindivSingleService{
+        width:99%;
+    }
+    
+}
